@@ -267,3 +267,4 @@ C:\Users\RafaARQ\Desktop\Projeto BookSamsys\BookSamsys\obj\Debug\net7.0\refint\B
 C:\Users\RafaARQ\Desktop\Projeto BookSamsys\BookSamsys\obj\Debug\net7.0\BookSamsys.pdb
 C:\Users\RafaARQ\Desktop\Projeto BookSamsys\BookSamsys\obj\Debug\net7.0\BookSamsys.genruntimeconfig.cache
 C:\Users\RafaARQ\Desktop\Projeto BookSamsys\BookSamsys\obj\Debug\net7.0\ref\BookSamsys.dll
+C:\Users\RafaARQ\Desktop\Projeto BookSamsys\BookSamsys\obj\Debug\net7.0\BookSamsys.sourcelink.json

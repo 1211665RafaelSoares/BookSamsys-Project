@@ -2,14 +2,123 @@
   {
     "ContainingType": "BookSamsys.Controllers.BooksController",
     "Method": "GetBooks",
-    "RelativePath": "api/livros",
+    "RelativePath": "api/books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "BookSamsys.Infrastructures.MessagingHelper.MessagingHelper\u00601[[System.Collections.Generic.List\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookSamsys.Controllers.BooksController",
+    "Method": "PostBook",
+    "RelativePath": "api/books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookDTO",
+        "Type": "BookSamsys.Infrastructures.Models.DTOs.BookDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookSamsys.Infrastructures.MessagingHelper.MessagingHelper\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookSamsys.Controllers.BooksController",
+    "Method": "GetBook",
+    "RelativePath": "api/books/{isbn}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isbn",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookSamsys.Infrastructures.MessagingHelper.MessagingHelper\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookSamsys.Controllers.BooksController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/books/{isbn}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isbn",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookSamsys.Infrastructures.MessagingHelper.MessagingHelper\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BookSamsys.Controllers.BooksController",
+    "Method": "EditBook",
+    "RelativePath": "api/books/{isbn}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isbn",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "book",
+        "Type": "BookSamsys.Infrastructures.Models.DTOs.EditBookDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BookSamsys.Infrastructures.MessagingHelper.MessagingHelper\u00601[[BookSamsys.Infrastructures.Models.DTOs.BookDTO, BookSamsys, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

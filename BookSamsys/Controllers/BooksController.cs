@@ -1,4 +1,5 @@
-﻿using BookSamsys.Infrastructures.Models.DTOs;
+﻿using BookSamsys.Infrastructures.MessagingHelper;
+using BookSamsys.Infrastructures.Models.DTOs;
 using BookSamsys.Infrastructures.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,11 +17,38 @@ namespace BookSamsys.Controllers
             _service = bookService;
         }
 
-        [HttpGet("livros")]
-        public async Task<List<BookDTO>> GetBooks()
+        [HttpGet("books")]
+        public async Task<MessagingHelper<List<BookDTO>>> GetBooks()
         {
-            var (books, _) = await _service.GetBooks();
-            return books;
+            return await _service.GetBooks();
+        }
+        
+        // GET: api/books/isbn
+        [HttpGet("books/{isbn}")]
+
+        public async Task<MessagingHelper<BookDTO>> GetBook(string isbn)
+        {
+            return await _service.GetBookByIsbn(isbn);
+        }
+
+        [HttpPost("books")]
+        public async Task<MessagingHelper<BookDTO>> PostBook([FromBody] BookDTO bookDTO)
+        {
+            return await _service.PostBookAsync(bookDTO);
+            
+        }
+
+        [HttpDelete("books/{isbn}")]
+        public async Task<MessagingHelper<BookDTO>> DeleteBook(string isbn)
+        {
+            return await _service.DeleteBook(isbn);
+            
+        }
+
+        [HttpPut("books/{isbn}")]
+        public async Task<MessagingHelper<BookDTO>> EditBook(string isbn, [FromBody] EditBookDTO book)
+        {
+            return await _service.EditBook(isbn, book);
         }
     }
 }

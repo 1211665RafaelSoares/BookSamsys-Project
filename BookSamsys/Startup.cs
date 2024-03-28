@@ -40,7 +40,7 @@ namespace BookSamsys
                 options.AddPolicy("AllowSpecificOrigins",
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:3000") // Substitua pelo URL do seu aplicativo React
+                        builder.WithOrigins("http://localhost:3000")
                                .AllowAnyHeader()
                                .AllowAnyMethod();
                     });

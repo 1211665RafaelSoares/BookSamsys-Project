@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JPHAB1uTbKzAMp5LbbWA/vOCls3LiQw9ZNjRHq3dBSqRYaQhu5uJWLXs9m4wh+IzOJVcI+YULaF6tytmuBkhPA==",
+  "dgSpecHash": "2HfSo5/t3qwu4fyz2i9StniMOukZxV4dA6bSmi0IQhUDlOBdwceNfAFv/RR/dYnZ47/KmWzWcTsbwpo57BA/2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\BookSamsys.csproj",
+  "projectFilePath": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\BookSamsys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RafaARQ\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\RafaARQ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

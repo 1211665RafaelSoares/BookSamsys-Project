@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\BookSamsys.csproj": {}
+    "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\BookSamsys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\BookSamsys.csproj": {
+    "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\BookSamsys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\BookSamsys.csproj",
+        "projectUniqueName": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\BookSamsys.csproj",
         "projectName": "BookSamsys",
-        "projectPath": "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\BookSamsys.csproj",
+        "projectPath": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\BookSamsys.csproj",
         "packagesPath": "C:\\Users\\RafaARQ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RafaARQ\\Desktop\\Projeto BookSamsys\\BookSamsys\\obj\\",
+        "outputPath": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

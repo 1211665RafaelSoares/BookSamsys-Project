@@ -1,0 +1,31 @@
+
+
+.right-side-tab {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 200px; /* or adjust width as per your design */
+  background-color: #f8f9fa; /* or any color you prefer */
+  padding: 20px;
+  overflow-y: auto; /* enable scrolling if content exceeds height */
+  z-index: 999; /* ensure it's on top of other content */
+}
+
+.right-side-tab .card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-tab .card-header {
+  background-color: #ffffff; /* or any color you prefer */
+  padding: 10px 15px;
+  border-bottom: 1px solid #dee2e6; /* or any border style you prefer */
+}
+
+.right-side-tab .card-body {
+  flex-grow: 1;
+  padding: 15px;
+}

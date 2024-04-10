@@ -5,6 +5,8 @@ using System.Drawing;
 namespace BookSamsys.Infrastructures.Models
 {
     public class Book
+
+
     {
         [Key]
         public long id { get; set; }

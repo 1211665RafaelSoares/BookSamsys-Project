@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BookSamsys.Infrastructures.Models;
+using System.Data.Entity;
 
 namespace BookSamsys.Infrastructures.Repository
 {
@@ -45,5 +46,18 @@ namespace BookSamsys.Infrastructures.Repository
             await _context.SaveChangesAsync();
             return bookExists;
         }
-    }
+
+        public async Task<int> GetTotalNumberOfBooksAsync()
+        {
+            return await _context.Books.CountAsync();
+        }
+
+        public async Task<List<Book>> GetBooksAsync(int pageNumber, int pageResults)
+        {
+            var books = _context.Books
+                .Skip((pageNumber - 1) * pageResults)
+                .Take(pageResults);
+            return await books.ToListAsync();
+        }
+    } 
 }

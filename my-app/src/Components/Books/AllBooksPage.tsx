@@ -18,29 +18,30 @@ function AllBooksPage() {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
   const [isRightSideTabOpen, setIsRightSideTabOpen] = useState(false);
   const [searchValue, setSearchValue] = useState<string>('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [booksPerPage, setBooksPerBage] = useState(6);
 
   useEffect(() => {
-    const fetchBooks = async () => {
-      try {
-        const response = await fetch("https://localhost:7291/api/GetBooks");
-        if (response.ok) {
-          const data = await response.json();
-          console.log(data);
-          if (data.success && Array.isArray(data.obj)) {
-            setBooks(data.obj);
-          } else {
-            console.error("Invalid books data format");
-          }
-        } else {
-          console.error("Failed to fetch books");
-        }
-      } catch (error) {
-        console.error("Error fetching books:", error);
-      }
-    };
-
     fetchBooks();
-  }, []);
+  }, [currentPage]);
+
+  const fetchBooks = async () => {
+    try {
+      const response = await fetch(`https://localhost:7291/api/GetBooksPage/${currentPage}`);
+      if (response.ok) {
+        const data = await response.json();
+        if (data.success && Array.isArray(data.obj)) {
+          setBooks(data.obj);
+        } else {
+          console.error('Invalid books data format');
+        }
+      } else {
+        console.error('Failed to fetch books');
+      }
+    } catch (error) {
+      console.error('Error fetching books:', error);
+    }
+  };
 
   const handleShowDetails = (book: Book) => {
     setSelectedBook(book);
@@ -102,6 +103,15 @@ function AllBooksPage() {
     book.author.toLowerCase().includes(searchValue.toLowerCase())
   );
 
+  const goToNextPage = () => {
+    setCurrentPage(currentPage + 1);
+  };
+
+  const goToPrevPage = () => {
+    setCurrentPage(currentPage - 1);
+  };
+
+ 
   return (
     <div className="container all-books-container">
       <h2 className="mt-3">All Books</h2>
@@ -128,6 +138,20 @@ function AllBooksPage() {
           <BookCard key={book.id} book={book} onShowDetails={() => handleShowDetails(book)} />
         ))}
       </div>
+      {/* Pagination buttons */}
+      <div className="pagination-buttons mt-3">
+        {currentPage > 1 && (
+          <button className="btn btn-primary me-2" onClick={goToPrevPage}>
+            Previous Page
+          </button>
+        )}
+        {filteredBooks.length === booksPerPage && (
+          <button className="btn btn-primary" onClick={goToNextPage}>
+            Next Page
+          </button>
+        )}
+      </div>
+
       {/* Right side tab for book details */}
       {isRightSideTabOpen && selectedBook && (
         <RightSideTab

@@ -50,5 +50,11 @@ namespace BookSamsys.Controllers
         {
             return await _service.EditBook(isbn, book);
         }
+
+        [HttpGet("GetBooksPage/{page}")]
+        public async Task<MessagingHelper<List<BookDTO>>> GetPage(int page)
+        {
+            return await _service.GetBooksPage(page);
+        }
     }
 }

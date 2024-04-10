@@ -7,32 +7,32 @@
       "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\models\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\models\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\models\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\models\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\messaginghelper\\messaginghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\messaginghelper\\messaginghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|c:\\users\\rafaarq\\desktop\\projeto_booksamsys\\booksamsys\\infrastructures\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A442EA-55C5-49B1-AEF9-7B4EEB271402}|BookSamsys.csproj|solutionrelative:infrastructures\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 381,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,14 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Infrastructures\\Models\\Book.cs",
-              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\Book.cs",
-              "RelativeToolTip": "Infrastructures\\Models\\Book.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA7wBQAAAAsAAAA",
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Infrastructures\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Services\\BookService.cs",
+              "RelativeToolTip": "Infrastructures\\Services\\BookService.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAAANgAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T14:48:22.946Z",
+              "WhenOpened": "2024-03-25T09:23:07.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructures\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "Infrastructures\\Repository\\BookRepository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAnwDoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:13:45.514Z",
               "EditorCaption": ""
             },
             {
@@ -69,14 +82,13 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T00:12:39.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T00:12:39.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -84,47 +96,19 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-28T00:12:39.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T00:12:39.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Services\\BookService.cs",
-              "RelativeDocumentMoniker": "Infrastructures\\Services\\BookService.cs",
-              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Services\\BookService.cs",
-              "RelativeToolTip": "Infrastructures\\Services\\BookService.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAcwLkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T09:23:07.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BookDTO.cs",
               "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\DTOs\\BookDTO.cs",
               "RelativeDocumentMoniker": "Infrastructures\\Models\\DTOs\\BookDTO.cs",
               "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\DTOs\\BookDTO.cs",
               "RelativeToolTip": "Infrastructures\\Models\\DTOs\\BookDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T10:59:08.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:04:29.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T10:59:08.878Z"
             },
             {
               "$type": "Document",
@@ -134,23 +118,34 @@
               "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
               "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Controllers\\BooksController.cs",
               "RelativeToolTip": "Controllers\\BooksController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCsAAAAzAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAA2wDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T09:21:34.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "MessagingHelper.cs",
               "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\MessagingHelper\\MessagingHelper.cs",
               "RelativeDocumentMoniker": "Infrastructures\\MessagingHelper\\MessagingHelper.cs",
               "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\MessagingHelper\\MessagingHelper.cs",
               "RelativeToolTip": "Infrastructures\\MessagingHelper\\MessagingHelper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:06:43.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T13:06:43.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Infrastructures\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\RafaARQ\\Desktop\\Projeto_BookSamsys\\BookSamsys\\Infrastructures\\Models\\Book.cs",
+              "RelativeToolTip": "Infrastructures\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T14:48:22.946Z"
             }
           ]
         }

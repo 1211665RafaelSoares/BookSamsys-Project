@@ -192,5 +192,39 @@ namespace BookSamsys.Infrastructures.Services
                 return response;
             }
         }
+        public async Task<MessagingHelper<List<BookDTO>>> GetBooksPage(int page)
+        {
+            MessagingHelper<List<BookDTO>> response = new();
+            try
+            {
+                var pageResults = 6;
+                var allBooks = await _bookRepo.GetBooksAsync();
+                var totalBooks = allBooks.Count;
+                var totalPages = (int)Math.Ceiling((double)totalBooks / pageResults);
+                
+
+                var books = allBooks.Skip((page - 1) * pageResults).Take(pageResults);
+
+
+                if (books == null)
+                {
+                    response.Message = "Não existem livros nesta página";
+                    return response;
+                    
+                }
+                else
+                {
+                    var bookDTOs = _mapper.Map<List<BookDTO>>(books);
+                    response.Message = $"Página {page} de {totalPages} retornada com sucesso!";
+                    response.Obj = bookDTOs;
+                    response.Success = true;
+                    return response;
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
